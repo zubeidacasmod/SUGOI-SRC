@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:DOLCE-Lite="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://www.cs.ukzn.ac.za/zubeida/ontologies/TemporalRelationsBFOMappings.owl#"
+    xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
+  xml:base="http://www.cs.ukzn.ac.za/zubeida/ontologies/TemporalRelationsBFOMappings.owl">
+  <owl:Ontology rdf:about="http://www.thezfiles.co.za/ontologies/TemporalRelationsBFOMappings.owl">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mappings between Temporal Relations and BFO
+Created 21 December 2012
+Updated: 21 January 2013</rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1</owl:versionInfo>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#Occurrent">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#perdurant"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#space-region"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Object">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-object"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Quality">
+    <owl:equivalentClass rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#process"/>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#Process">
+    <owl:equivalentClass rdf:resource="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#process"/>
+  </owl:Class>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4, Build 533)  http://protege.stanford.edu -->

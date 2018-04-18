@@ -1,0 +1,4 @@
+Sugoi.proxyHost = sanren-proxy.meraka.csir.co.za 
+Sugoi.proxyPort = 3128
+Sugoi.proxyUser =
+Sugoi.proxyPassword =

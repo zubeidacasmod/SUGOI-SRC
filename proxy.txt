@@ -1,0 +1,4 @@
+Sugoi.proxyHost = 
+Sugoi.proxyPort =
+Sugoi.proxyUser =
+Sugoi.proxyPassword =

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="$$codebase" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>SugoiApplet</title>
+        <vendor>Zubeida</vendor>
+        <homepage href=""/>
+        <description>SugoiApplet</description>
+        <description kind="short">SugoiApplet</description>
+    </information>
+    <update check="always"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se java-vm-args="-Djava.security.policy=applet.policy" version="1.7+"/>
+        <jar href="SugoiApplet.jar" main="true"/>
+    <jar href="lib/javax.mail.jar"/>
+<jar href="lib/owlapi-distribution-3.5.0-SNAPSHOT-javadoc.jar"/>
+<jar href="lib/owlapi-distribution-3.5.0-SNAPSHOT-sources.jar"/>
+<jar href="lib/owlapi-distribution-3.5.0-SNAPSHOT.jar"/>
+</resources>
+    <applet-desc height="300" main-class="Interchangeability.OntoSwap" name="SugoiApplet" width="300">
+    </applet-desc>
+</jnlp>

@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY snap "http://www.ifomis.org/bfo/1.1/snap#" >
+    <!ENTITY span "http://www.ifomis.org/bfo/1.1/span#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY DOLCE-Lite "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.thezfiles.co.za/ontologies/DOLCE-LiteBFOMerged.owl#"
+     xml:base="http://www.thezfiles.co.za/ontologies/DOLCE-LiteBFOMerged.owl"
+     xmlns:DOLCE-Lite="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#">
+    <owl:Ontology rdf:about="http://www.thezfiles.co.za/ontologies/DOLCE-LiteBFOMapppings.owl">
+        <owl:versionInfo rdf:datatype="&xsd;string">1</owl:versionInfo>
+        <rdfs:comment rdf:datatype="&xsd;string">Mappings between DOLCE-Lite and BFO
+10 November 2012
+Updated 04 February 2014</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant -->
+
+    <owl:Class rdf:about="&snap;IndependentContinuant">
+        <owl:equivalentClass rdf:resource="&DOLCE-Lite;endurant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#MaterialEntity -->
+
+    <owl:Class rdf:about="&snap;MaterialEntity">
+        <owl:equivalentClass rdf:resource="&DOLCE-Lite;physical-endurant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#Object -->
+
+    <owl:Class rdf:about="&snap;Object">
+        <owl:equivalentClass rdf:resource="&DOLCE-Lite;physical-object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#Quality -->
+
+    <owl:Class rdf:about="&snap;Quality">
+        <owl:equivalentClass rdf:resource="&DOLCE-Lite;quality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/snap#SpatialRegion -->
+
+    <owl:Class rdf:about="&snap;SpatialRegion">
+        <owl:equivalentClass rdf:resource="&DOLCE-Lite;space-region"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#Occurrent -->
+
+    <owl:Class rdf:about="&span;Occurrent">
+        <owl:equivalentClass rdf:resource="&DOLCE-Lite;perdurant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ifomis.org/bfo/1.1/span#Process -->
+
+    <owl:Class rdf:about="&span;Process">
+        <owl:equivalentClass rdf:resource="&DOLCE-Lite;process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;endurant"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#perdurant -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;perdurant"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;physical-endurant"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-object -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;physical-object"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#process -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;process"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;quality"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#space-region -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;space-region"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&owl;Nothing">
+        <rdfs:comment rdf:datatype="&xsd;string">etett</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

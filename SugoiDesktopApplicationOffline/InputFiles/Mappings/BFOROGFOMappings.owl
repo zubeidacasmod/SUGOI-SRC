@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+    xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns="http://www.cs.ukzn.ac.za/zubeida/ontologies/BFOROGFOMerged.owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:gfo="http://www.onto-med.de/ontologies/gfo.owl#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
+  xml:base="http://www.cs.ukzn.ac.za/zubeida/ontologies/BFOROGFOMerged.owl">
+  <owl:Ontology rdf:about="http://www.thezfiles.co.za/ontologies/BFOROGFOMappings.owl">
+    <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >Mappings between BFO relational ontology and GFO ontologies.
+Created 21 November 2012
+Updated 23 November 2012
+Updated: 21 January 2013
+Updated: 30 January 2013</rdfs:comment>
+    <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string"
+    >1</owl:versionInfo>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#Occurrent">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Occurrent"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#SpatialRegion">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Spatial_region"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Object">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Material_object"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Function">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Function"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant">
+    <owl:equivalentClass>
+      <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Presential"/>
+    </owl:equivalentClass>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Quality">
+    <owl:equivalentClass rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Property"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#Role">
+    <rdfs:subClassOf rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Role"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1#Entity">
+    <owl:equivalentClass rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Entity"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/snap#ObjectBoundary">
+    <owl:equivalentClass rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Material_boundary"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.ifomis.org/bfo/1.1/span#Process">
+    <owl:equivalentClass rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#Process"/>
+  </owl:Class>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#agent_in">
+    <owl:equivalentProperty>
+      <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#agent_in"/>
+    </owl:equivalentProperty>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part">
+    <owl:equivalentProperty>
+      <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_proper_part"/>
+    </owl:equivalentProperty>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#participates_in"/>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#occupies">
+    <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part">
+    <owl:equivalentProperty>
+      <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_part"/>
+    </owl:equivalentProperty>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#occupied_by">
+    <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#proper_part_of"/>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#participates_in">
+    <owl:equivalentProperty rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#participates_in"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#part_of">
+    <owl:equivalentProperty rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#part_of"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_agent"/>
+  <owl:ObjectProperty rdf:about="http://www.onto-med.de/ontologies/gfo.owl#has_participant">
+    <rdfs:subPropertyOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#proper_part_of">
+    <owl:equivalentProperty rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#proper_part_of"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_agent">
+    <owl:equivalentProperty rdf:resource="http://www.onto-med.de/ontologies/gfo.owl#has_agent"/>
+  </owl:ObjectProperty>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.4, Build 533)  http://protege.stanford.edu -->

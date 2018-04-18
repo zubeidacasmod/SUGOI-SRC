@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY swrl "http://www.w3.org/2003/11/swrl#" >
+    <!ENTITY swrlb "http://www.w3.org/2003/11/swrlb#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY gfo "http://www.onto-med.de/ontologies/gfo.owl#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY DOLCE-Lite "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY xsp "http://www.owl-ontologies.com/2005/08/07/xsp.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.cs.ukzn.ac.za/zubeida/ontologies/SpatialRelationsGFOMapping.owl#"
+     xml:base="http://www.cs.ukzn.ac.za/zubeida/ontologies/SpatialRelationsGFOMapping.owl"
+     xmlns:DOLCE-Lite="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#"
+     xmlns:gfo="http://www.onto-med.de/ontologies/gfo.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="http://www.thezfiles.co.za/ontologies/SpatialRelationsGFOMappings.owl">
+        <owl:versionInfo rdf:datatype="&xsd;string">1</owl:versionInfo>
+        <rdfs:comment rdf:datatype="&xsd;string">Mappings between SpatialRelations and GFO.
+Created 21 December 2012
+Updated 28 November 2012
+Updated: 13 January 2012
+Updated: 21 January 2013
+Updated: 22 January 2013
+Updated: 13 Feb 2013
+Updated: 03 June 2013
+Updated: 25 February 2014</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#boundary -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;boundary">
+        <owl:equivalentProperty rdf:resource="&gfo;has_boundary"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#boundary-of -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;boundary-of">
+        <owl:equivalentProperty rdf:resource="&gfo;boundary_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#generic-constituent -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;generic-constituent"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#generic-constituent-of -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;generic-constituent-of"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#generic-dependent -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;generic-dependent">
+        <rdfs:subPropertyOf rdf:resource="&gfo;necessary_for"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#generic-location -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;generic-location"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#generic-location-of -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;generic-location-of"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#generically-dependent-on -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;generically-dependent-on">
+        <rdfs:subPropertyOf rdf:resource="&gfo;depends_on"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#part -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;part">
+        <rdfs:subPropertyOf rdf:resource="&gfo;abstract_has_part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#part-of -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;part-of">
+        <rdfs:subPropertyOf rdf:resource="&gfo;abstract_part_of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#participant -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;participant">
+        <owl:equivalentProperty rdf:resource="&gfo;has_participant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#participant-in -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;participant-in">
+        <owl:equivalentProperty rdf:resource="&gfo;participates_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#proper-part -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;proper-part"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#proper-part-of -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;proper-part-of"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporary-participant -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;temporary-participant">
+        <owl:equivalentProperty rdf:resource="&gfo;has_agent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#temporary-participant-in -->
+
+    <owl:ObjectProperty rdf:about="&DOLCE-Lite;temporary-participant-in">
+        <owl:equivalentProperty rdf:resource="&gfo;agent_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#abstract_has_part -->
+
+    <owl:ObjectProperty rdf:about="&gfo;abstract_has_part"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#abstract_part_of -->
+
+    <owl:ObjectProperty rdf:about="&gfo;abstract_part_of"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#agent_in -->
+
+    <owl:ObjectProperty rdf:about="&gfo;agent_in"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#boundary_of -->
+
+    <owl:ObjectProperty rdf:about="&gfo;boundary_of"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#constituent_part_of -->
+
+    <owl:ObjectProperty rdf:about="&gfo;constituent_part_of">
+        <rdfs:subPropertyOf rdf:resource="&DOLCE-Lite;generic-constituent-of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#depends_on -->
+
+    <owl:ObjectProperty rdf:about="&gfo;depends_on"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#has_agent -->
+
+    <owl:ObjectProperty rdf:about="&gfo;has_agent"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#has_boundary -->
+
+    <owl:ObjectProperty rdf:about="&gfo;has_boundary"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#has_constituent_part -->
+
+    <owl:ObjectProperty rdf:about="&gfo;has_constituent_part">
+        <rdfs:subPropertyOf rdf:resource="&DOLCE-Lite;generic-constituent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#has_participant -->
+
+    <owl:ObjectProperty rdf:about="&gfo;has_participant"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="&gfo;has_proper_part">
+        <rdfs:subPropertyOf rdf:resource="&DOLCE-Lite;proper-part"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#necessary_for -->
+
+    <owl:ObjectProperty rdf:about="&gfo;necessary_for"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#occupied_by -->
+
+    <owl:ObjectProperty rdf:about="&gfo;occupied_by">
+        <rdfs:subPropertyOf rdf:resource="&DOLCE-Lite;generic-location-of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#occupies -->
+
+    <owl:ObjectProperty rdf:about="&gfo;occupies">
+        <rdfs:subPropertyOf rdf:resource="&DOLCE-Lite;generic-location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#participates_in -->
+
+    <owl:ObjectProperty rdf:about="&gfo;participates_in"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="&gfo;proper_part_of">
+        <rdfs:subPropertyOf rdf:resource="&DOLCE-Lite;proper-part-of"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#abstract -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;abstract">
+        <owl:equivalentClass rdf:resource="&gfo;Abstract"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#arbitrary-sum -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;arbitrary-sum"/>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#endurant -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;endurant">
+        <owl:equivalentClass rdf:resource="&gfo;Presential"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#particular -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;particular">
+        <owl:equivalentClass rdf:resource="&gfo;Individual"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#perdurant -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;perdurant">
+        <owl:equivalentClass rdf:resource="&gfo;Occurrent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-endurant -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;physical-endurant">
+        <owl:equivalentClass rdf:resource="&gfo;Discrete_presential"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#physical-object -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;physical-object">
+        <owl:equivalentClass rdf:resource="&gfo;Material_object"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#process -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;process">
+        <owl:equivalentClass rdf:resource="&gfo;Process"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#quality -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;quality">
+        <owl:equivalentClass rdf:resource="&gfo;Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#state -->
+
+    <owl:Class rdf:about="&DOLCE-Lite;state">
+        <owl:equivalentClass rdf:resource="&gfo;State"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Abstract -->
+
+    <owl:Class rdf:about="&gfo;Abstract"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Configuration -->
+
+    <owl:Class rdf:about="&gfo;Configuration"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Discrete_presential -->
+
+    <owl:Class rdf:about="&gfo;Discrete_presential"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Individual -->
+
+    <owl:Class rdf:about="&gfo;Individual"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Material_object -->
+
+    <owl:Class rdf:about="&gfo;Material_object"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Material_structure -->
+
+    <owl:Class rdf:about="&gfo;Material_structure"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Occurrent -->
+
+    <owl:Class rdf:about="&gfo;Occurrent"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Presential -->
+
+    <owl:Class rdf:about="&gfo;Presential"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Process -->
+
+    <owl:Class rdf:about="&gfo;Process"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#Property -->
+
+    <owl:Class rdf:about="&gfo;Property"/>
+    
+
+
+    <!-- http://www.onto-med.de/ontologies/gfo.owl#State -->
+
+    <owl:Class rdf:about="&gfo;State"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://sw.der.org/~zubeida/ROMULUS/ontologies/BFOGFOMerged.owl" uri="BFOGFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://sw.deri.org/~zubeida/ROMULUS/ontologies/BFOGFO-basicMerged.owl" uri="BFOGFO-basicMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/ontologies/BFORODOLCE-LiteMerged.owl" uri="BFORODOLCE-LiteMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/BFOROFunctionalParticipationMerged.owl" uri="BFOROFunctionalParticipationMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/BFOROGFO-basicMerged.owl" uri="BFOROGFO-basicMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/BFOROGFOMerged.owl" uri="BFOROGFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/BFOROSpatialRelationsMerged.owl" uri="BFOROSpatialRelationsMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/BFOROTemporalRelationsMerged.owl" uri="BFOROTemporalRelationsMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/DOLCE-LiteGFO-basicMerged.owl" uri="DOLCE-LiteGFO-basicMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/DOLCE-LiteGFOMerged.owl" uri="DOLCE-LiteGFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/FunctionalParticipationBFOMerged.owl" uri="FunctionalParticipationBFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/FunctionalParticipationGFO-basicMerged.owl" uri="FunctionalParticipationGFO-basicMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/FunctionalParticipationGFOMappings.owl" uri="FunctionalParticipationGFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/SpatialRelationsBFOMappings.owl" uri="SpatialRelationsBFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/SpatialRelationsGFO-basicMappings.owl" uri="SpatialRelationsGFO-basicMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/SpatialRelationsGFOMapping.owl" uri="SpatialRelationsGFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/TemporalRelationsBFOMappings.owl" uri="TemporalRelationsBFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/TemporalRelationsGFO-basicMerged.owl" uri="TemporalRelationsGFO-basicMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.cs.ukzn.ac.za/zubeida/ontologies/TemporalRelationsGFOMerged.owl" uri="TemporalRelationsGFOMappings.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1397480897484" name="http://www.thezfiles.co.za/ontologies/DOLCE-LiteBFOMerged.owl" uri="DOLCE-LiteBFOMappings.owl"/>
+    </group>
+</catalog>
